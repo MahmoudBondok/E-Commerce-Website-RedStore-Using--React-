@@ -1,0 +1,140 @@
+.product-details {
+    margin: 165px 0;
+}
+.vx-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-details .buy-img {
+    width: 400px;
+    margin-bottom: 10px;
+}
+.product-details img {
+    width: 100px;
+    padding: 0 5px;
+}
+.product-details .details-10 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+.product-details .details-10 h1 {
+    font-weight: 800;
+}
+#dropdown-basic {
+    border: 1px solid orangered;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: none ;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0 30px;
+    border-radius: 0;
+    padding: 8px 20px;
+}
+.product-details .num {
+    border: 1px solid orangered !important;
+    outline: none ;
+    padding: 15px 0;
+}
+.product-details .btn {
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: none;
+    opacity: 0.8;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.product-details .btn:hover {
+    opacity: 1;
+    background-color: rgb(108, 77, 23);
+}
+.product-details h6 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 5px;
+}
+.product-details .desc {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+/* Start Account */
+.account {
+    height: calc(100vh - 75px);
+    background-color: #f4a3a382;
+}
+.account .page-account {
+    padding: 180px 0;
+}
+.account .form {
+    background-color: #FFF;
+    width: 300px;
+    padding: 50px 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 13px -4px #4e4a4a;
+}
+.account .form h6 {
+    margin-bottom: 30px;
+}
+.account .form input {
+    width: 250px;
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: none;
+    border: 1px solid rgb(159, 154, 154);
+}
+.account .form .btn {
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: none;
+    opacity: 0.8;
+    color: #FFF;
+    font-weight: 500;
+}
+.account .form .btn:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+.account img {
+    width: 550px;
+}
+/* End Account */
+/* Start CartPage */
+.cart-page .head-cart {
+    background-color: orangered;
+    padding: 8px 0;
+    color: #FFF;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 5;
+}
+.cart-page .product-354 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cart-page .product-354 img {
+    width: 130px;
+}
+.cart-page .product-354 p {
+    font-weight: 500;
+    margin: 5px;
+    text-align: start;
+}
+.cart-page .text-info-165 {
+    padding-left: 10px;
+}
+.cart-page .container {
+    border-bottom: 3px solid orangered;
+    width: 80%;
+}
+/* End CartPage */
